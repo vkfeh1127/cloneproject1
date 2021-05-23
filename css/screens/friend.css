@@ -1,0 +1,60 @@
+.title{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title span{
+    margin: 0px 15px;
+    font-weight: 600;
+}
+
+.title__icons{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  
+}
+
+.title__icons i{
+    margin-right:20px;
+}
+
+.explain {
+    background-color: rgba(0, 0, 0, 0.04);
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explain i{
+    opacity: 0.4;
+    margin: 0px 10px;
+}
+.profile {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom-width: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.profile img{
+    margin: 0px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+}
+
+.channel-title{
+    opacity: 0.5;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.channel-main{
+    margin: 20px 15px;
+    display: flex;
+}
