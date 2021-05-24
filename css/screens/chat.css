@@ -1,0 +1,19 @@
+.user-small {
+  padding-bottom: 70px;
+}
+.chat {
+  line-height: 40px;
+  display: block;
+  margin-left: 20px;
+}
+
+.user-small-right span:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: black;
+  background-color: var(--main-color);
+}

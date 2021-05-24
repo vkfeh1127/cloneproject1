@@ -22,3 +22,24 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+.title {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title span {
+  margin: 0px 15px;
+  font-weight: 600;
+}
+
+.title__icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.title__icons i {
+  margin-right: 20px;
+}

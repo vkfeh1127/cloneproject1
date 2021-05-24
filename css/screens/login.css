@@ -23,13 +23,15 @@
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
+  color: var(--main-color);
+  background-color: black;
 }
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid var(--main-color);
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--main-color);
 }
 
 #login-form input:focus {

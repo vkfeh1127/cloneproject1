@@ -6,20 +6,36 @@
 /* Components */
 @import "components/style-top-bar.css";
 @import "components/nav.css";
-@import "components/profile.css";
+@import "components/user.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friend.css";
 @import "screens/mediaquery.css";
+@import "screens/chat.css";
+@import "screens/chat-in.css";
+@import "screens/settings.css";
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  color: var(--main-color);
   margin: 0;
   border-right: 15px;
   font-family: "Oswald", sans-serif;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+h2 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 20px;
+  opacity: 0.7;
 }
