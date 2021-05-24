@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -11,13 +11,15 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friend.css";
+@import "screens/mediaquery.css";
 
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   border-right: 15px;
-  font-family: 'Oswald', sans-serif;
-  background-color: white
+  font-family: "Oswald", sans-serif;
+  background-color: white;
 }
