@@ -7,3 +7,16 @@
   height: 70px;
   width: 70px;
 }
+.chat-guest_profile {
+  display: flex;
+}
+.chat-guest_profile > * {
+  margin-left: 20px;
+}
+.chat-info {
+  display: flex;
+  justify-content: flex-start;
+}
+.chat-info > * {
+  margin-left: 20px;
+}
